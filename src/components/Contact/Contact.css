@@ -1,0 +1,15 @@
+.form{
+    width: 700px;
+    background-color: white;
+    padding: 3rem 3rem;
+    margin: 5rem 20rem;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 25px;
+
+}
+.form Button{
+    border-radius: 25px;
+}
+.form p{
+    width: 500;
+}

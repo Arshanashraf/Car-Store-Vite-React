@@ -1,0 +1,40 @@
+.reviewContent{
+
+    text-align: center;
+}
+.review{
+    margin-top: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+.reviewCards{
+    margin-top: -300px;
+    margin-left: 100px;
+}
+.card{
+    border-radius: 25px;
+}
+.card1{
+    height: 100px;
+    margin-top: 350px;
+}
+.card1 img{
+    border-radius: 25px;
+}
+.cardTitle{
+    font-weight: 700;
+    color: blue;
+}
+.carDetails{
+    font-size: 14px;
+}
+.card Button{
+    border-radius: 25px;
+}
+.separation3{
+    height: 1px;
+    background-color: gray;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 380px;
+}

@@ -1,0 +1,29 @@
+.mainImage{
+    position: relative;
+    top: -300px;
+    right: -970px;
+    width: 350px;
+    height: 350px;
+    transform: rotate(45deg);
+}
+.rhombus{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    border: 25px solid #1743e3;
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, .2);
+    opacity: 0;
+    animation: zoomOut 1s ease forwards;
+    animation-delay: 1.3s;
+}
+.rhombus img{
+    position: absolute;
+    top: 110px;
+    left: -250px;
+    max-width: 600px;
+    transform: rotate(-45deg);
+    opacity: 0;
+    animation: car 1s ease forwards;
+    animation-delay: 2s;
+}
