@@ -19,6 +19,7 @@ const Contact = () => {
           <Form.Label>Email</Form.Label>
           <Form.Control type="email" placeholder="Enter email @gamil.com" />
         </Form.Group>
+
       </Row>
 
       <Form.Group className="mb-3" controlId="formGridMessage">

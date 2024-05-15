@@ -2,22 +2,21 @@
     position: relative;
     margin-top: 40px;
 }
-.car-slider{
+/* .car-slider{
     position: absolute;
     top: 0px;
     right: 30px;
-}
+} */
 .aboutContent{
     margin-left: 100px;
+    width: 600px;
 }
 .slider img{
-    height: 250px;
-    animation: none;
-    animation-delay: none;
+    height: 300px;
+    margin-left: 70px;
+
 }
-.slider{
-    animation: none;
-}
+
 .carousel{
     height: 300px;
 }
@@ -27,4 +26,7 @@
     width: 1200px;
     margin-left: 80px;
     margin-top: 250px;
+}
+@media (max-width: 700){
+    
 }

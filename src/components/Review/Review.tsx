@@ -1,4 +1,6 @@
 import './Review.css'
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Car1 from '../../assets/Images/car1.jpg'
@@ -15,8 +17,8 @@ const Review = () => {
         <h3>Review</h3>
       </div>
       <div className="reviewCards">
-        <div className="row">
-            <div className="col-lg-4 col-md-6">
+        <Row>
+        <Col lg='4' md='6'>
                 <div className="card1">
                     <Card className="card"style={{ width: '18rem' }}>
                         <Card.Img style={{height:'170px'}} variant="top" src={Car1} />
@@ -30,9 +32,9 @@ const Review = () => {
                         </Card.Body>
                     </Card>
                 </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6">
+            <Col lg='4' md='6'>
                 <div className="card1">
                     <Card style={{ width: '18rem' }}>
                         <Card.Img style={{height:'170px'}} variant="top" src={Car2} />
@@ -46,9 +48,9 @@ const Review = () => {
                         </Card.Body>
                     </Card>
                 </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6">
+            <Col lg='4' md='6'>
                 <div className="card1">
                     <Card style={{ width: '18rem' }}>
                         <Card.Img style={{height:'170px'}} variant="top" src={Car3} />
@@ -62,9 +64,9 @@ const Review = () => {
                         </Card.Body>
                     </Card>
                 </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6">
+            <Col lg='4' md='6'>
                 <div className="card1">
                     <Card style={{ width: '18rem' }}>
                         <Card.Img style={{height:'170px'}} variant="top" src={Car4} />
@@ -78,9 +80,9 @@ const Review = () => {
                         </Card.Body>
                     </Card>
                 </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6">
+            <Col lg='4' md='6'>
                 <div className="card1">
                     <Card style={{ width: '18rem' }}>
                         <Card.Img style={{height:'170px'}} variant="top" src={Car5} />
@@ -94,9 +96,9 @@ const Review = () => {
                         </Card.Body>
                     </Card>
                 </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6">
+            <Col lg='4' md='6'>
                 <div className="card1">
                     <Card style={{ width: '18rem' }}>
                         <Card.Img style={{height:'170px'}} variant="top" src={Car6} />
@@ -110,8 +112,8 @@ const Review = () => {
                         </Card.Body>
                     </Card>
                 </div>
-            </div>
-        </div>
+            </Col>
+        </Row>
       </div>
       <div className="row">
         <div className="col-lg-12">

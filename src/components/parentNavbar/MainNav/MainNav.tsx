@@ -7,9 +7,11 @@ const MainNav = () => {
   return (
     <div >
     <>
-      <Navbar className='Navbar'>
+      <Navbar collapseOnSelect expand="lg" className='Navbar'>
         <Container className='container'>
           <Navbar.Brand className="logo">HeaLer</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navbar me-auto">
             <Nav.Link className="nav" href="#home">Home</Nav.Link>
             <Nav.Link className="nav" href="#about">About</Nav.Link>
@@ -17,11 +19,12 @@ const MainNav = () => {
             <Nav.Link className="nav" href="#contact">Contact</Nav.Link>
             <Nav.Link className="nav" href="#featured">Featured</Nav.Link>
           </Nav>
-          <div className="social-media">
+          <Nav className="social-media">
             <a href="#" className='text-light'><i className='bx bxl-twitter'></i></a>
             <a href="#" className='text-light'><i className='bx bxl-facebook'></i></a>
             <a href="#" className='text-light'><i className='bx bxl-instagram-alt' ></i></a>
-        </div>
+        </Nav>
+        </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
