@@ -4,7 +4,7 @@ import './App.css'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Main from './components/Main/Main'
+import Home from './components/Home/Home'
 import Review from './components/Review/Review'
 import ParentNavbar from './components/parentNavbar/ParentNavbar'
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <>
       <div className='app'>
         <ParentNavbar/>
-        <Main/>
+        <Home/>
         <About/>
         <Review/>
         <Contact/>
