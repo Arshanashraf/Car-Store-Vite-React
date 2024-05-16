@@ -12,14 +12,14 @@ const About = () => {
       <Row>
         <Col lg="6" >
           <div className="aboutContent">
-          <h1>Car Dealing Experience.</h1>
-          <h3>About Us.</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-            eos, ipsam molestiae aliquid nulla rem suscipit dolorum iusto ipsum.
-            Sunt eos maiores recusandae cumque, dignissimos ipsa at voluptatum
-            alias nemo.
-          </p>
+            <h1>Car Dealing Experience.</h1>
+            <h3>About Us.</h3>
+             <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+                eos, ipsam molestiae aliquid nulla rem suscipit dolorum iusto ipsum.
+               Sunt eos maiores recusandae cumque, dignissimos ipsa at voluptatum
+               alias nemo.
+            </p>
           </div>
           
         </Col>

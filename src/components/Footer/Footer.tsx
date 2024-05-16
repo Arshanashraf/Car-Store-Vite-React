@@ -17,6 +17,7 @@ const Footer = () => {
         </div>
         </div>
         </Col>
+        <div className='moreInfo1'>
         <Col lg="2">
         <div className="moreInfo">
             <h5 >Account</h5>
@@ -52,6 +53,8 @@ const Footer = () => {
 
         </div>
         </Col>
+        </div>
+        
       </Row>
       <Row>
         <Col lg="12">
@@ -59,12 +62,12 @@ const Footer = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg="6">
+        <Col lg="6" md="12" sm="12">
         <div className="endInfo">
             <div>&copy;2024 All Rights Reserved by HeaLer.</div>
         </div>
         </Col>
-        <Col lg="6">
+        <Col lg="6" md="12" sm="12">
         <div className="endInfo2">
             <div>Terms<span>-</span>Privacy Policy<span>-</span>Cokies</div>
         </div>

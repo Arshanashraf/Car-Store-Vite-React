@@ -61,6 +61,12 @@ h5{
     text-decoration: underline;
 
 }
+.moreInfo1 {
+    margin-left: 450px;
+    margin-top: -220px;
+    display: flex;
+    flex-direction: row;
+}
 .moreInfo {
     margin-left: 50px;
 }
@@ -71,9 +77,10 @@ h5{
 .separation4{
     height: 1px;
     background-color: rgb(197, 196, 196);
-    width: 1000px;
+    width: auto;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-right: 40px;
 }
 .endInfo{
     color: rgb(238, 237, 237);
@@ -85,4 +92,99 @@ h5{
 span{
     margin-right: 10px;
     margin-left: 10px;
+}
+@media (max-width: 600px){
+    .footerInfo{
+        margin-left: -70px;
+    }
+    .moreInfo1 {
+        margin-top: 0px;
+        margin-left: -150px;
+        display: flex;
+        flex-direction: row;
+    }
+    .separation4{
+        width: auto;
+        margin-left: -100px;
+        margin-right: 20px;
+    }
+    .endInfo{
+        margin-left: -90px;
+    }
+    .endInfo2{
+        padding-left: 0px;
+        margin-left: -90px;
+        margin-top: 5px;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .footerInfo{
+        margin-left: -30px;
+    }
+    .moreInfo1 {
+        margin-top: 0px;
+        margin-left: -100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .separation4{
+        width: 550px;
+        margin-left: -100px;
+        margin-right: 20px;
+    }
+    .endInfo{
+        margin-left: -40px;
+    }
+    .endInfo2{
+        padding-left: 0px;
+        margin-left: -40px;
+        margin-top: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .footerInfo{
+        margin-left: -30px;
+    }
+    .moreInfo1 {
+        margin-top: 0px;
+        margin-left: -110px;
+        display: flex;
+        flex-direction: row;
+    }
+    .separation4{
+        width: auto;
+        margin-left: -100px;
+        margin-right: 10px;
+    }
+    .endInfo{
+        margin-left: -80px;
+    }
+    .endInfo2{
+        padding-left: 0px;
+        margin-left: 250px;
+        margin-top: -24px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1115px){
+    .footerInfo{
+        margin-left: -30px;
+    }
+    .moreInfo1 {
+        margin-left: 180px;
+        margin-top: -220px;
+        display: flex;
+        flex-direction: row;
+    }
+    .separation4{
+        width: auto;
+        margin-left: -100px;
+        margin-right: 10px;
+    }
+    .endInfo{
+        margin-left: -80px;
+    }
+    .endInfo2{
+        padding-left: 0px;
+        margin-left: 30px;
+    }
 }
