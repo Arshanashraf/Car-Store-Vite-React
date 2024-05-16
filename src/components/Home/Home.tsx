@@ -21,8 +21,9 @@ const Home = () => {
             </a>
           </div>
         </Col>
-        <Col lg="5">
-           <div className='homeImage'>
+        <Col lg="5" >
+            <div className="d-flex justify-content-center align-items-center">
+            <div className='homeImage'>
               <div className='Rhombus'>
                 <img src={Car} alt="" />
               </div>
@@ -30,6 +31,8 @@ const Home = () => {
             <div>
               <div className="Rhombus2"></div>
             </div>
+            </div>
+           
         </Col>
       </Row>
       <Row>

@@ -40,7 +40,7 @@ p{
     color: #eaeaea;
     letter-spacing: 1px;
     text-decoration: none;
-    font-weight: 600;
+     font-weight: 600;
     transition: .5s;
     opacity: 0;
     animation: slideTop 1s ease forwards;
@@ -52,9 +52,9 @@ p{
 }
 
 .homeImage{
-    position: relative;
+   position: relative;
     top: 180px;
-    right: -180px;
+    right: -80px;
     width: 350px;
     height: 350px;
     transform: rotate(45deg);
@@ -191,4 +191,116 @@ p{
         right: -25%;
         opacity: 1;
     }
+}
+@media (max-width: 600px){
+    .homeImage{
+         top: 100px;
+         right: -80px;
+         width: 350px;
+         height: 350px;
+     }
+     .Rhombus{
+         width: 65%;
+         height: 65%;
+     }
+     .Rhombus img{
+         top: 110px;
+         left: -200px;
+         max-width: 400px;
+         padding-left: 60px;
+     }
+     .Rhombus2{
+        top: 35%;
+        left: 350px;
+        width: 350px;
+        height: 350px;
+    }
+    .separation1{
+        width: auto;
+        margin-right: 40px;
+    }
+
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .homeImage{
+        top: 100px;
+        right: -80px;
+        width: 350px;
+        height: 350px;
+    }
+    .Rhombus{
+        width: 90%;
+        height: 90%;
+        margin-left: 20px;
+    }
+    .Rhombus img{
+        top: 120px;
+        max-width: 550px;
+    }
+    .Rhombus2{
+       top: 35%;
+       left: 400px;
+       width: 450px;
+       height: 450px;
+   }
+   .separation1{
+    width: auto;
+    margin-top: 350px;
+    margin-right: 40px;
+}
+   
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .homeImage{
+        top: 60px;
+        right: -120px;
+        width: 350px;
+        height: 350px;
+    }
+    .Rhombus{
+        width: 120%;
+        height: 120%;
+        margin-left: 20px;
+    }
+    .Rhombus img{
+        top: 170px;
+        max-width: 650px;
+    }
+    .Rhombus2{
+        top: 25%;
+        left: 550px;
+        width: 550px;
+        height: 550px;
+    }
+    .separation1{
+        width: auto;
+        margin-top: 350px;
+        margin-right: 40px;
+ }
+}
+@media (min-width: 992px) and (max-width: 1115px){
+    .homeImage{
+        top: 160px;
+        right: -120px;
+        width: 300px;
+        height: 300px;
+    }
+    .Rhombus{
+        width: 120%;
+        height: 120%;
+        margin-left: 20px;
+    }
+    .Rhombus img{
+        top: 170px;
+        max-width: 550px;
+    }
+    .Rhombus2{
+        width: 600px;
+        height: 600px;
+    }
+    .separation1{
+        width: auto;
+        margin-top: 350px;
+        margin-right: 40px;
+ }
 }

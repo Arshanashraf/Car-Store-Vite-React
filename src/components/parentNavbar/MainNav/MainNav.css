@@ -45,6 +45,9 @@
 
 .social-media{
     display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-direction: row;
     justify-content: space-between;
     width: 150px;
     height: 40px;
@@ -75,4 +78,16 @@
     font-size: 24px;
     color: #eaeaea;
     transform: rotate(-45deg);
+}
+@media (max-width: 991px){
+    .nav{
+        line-height: 5px;
+    }
+    .nav:hover,
+    .nav.active{
+        background-color: transparent;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        color: #fff !important;
+    }
 }

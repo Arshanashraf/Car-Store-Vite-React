@@ -38,3 +38,69 @@
     margin-left: 80px;
     margin-top: 380px;
 }
+@media(max-width: 600px){
+    .reviewContent{
+        width: auto;
+        margin-left: 100px;
+        text-align: start;
+    }
+    .card{
+        width: 402px !important;
+    }
+    .card1 img{
+        width: 400px !important;
+        height: 300px !important;
+    }
+    .card1{
+        margin-bottom: 60px;
+    }
+    .separation3{
+        width: auto;
+        margin-top: 450px;
+        margin-right: 60px;
+    }
+
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .card{
+        width: 552px !important;
+    }
+    .card1 img{
+        width: 550px !important;
+        height: 400px !important;
+    }
+    .card1{
+        margin-bottom: 160px;
+    }
+    .separation3{
+        width: auto;
+        margin-top: 450px;
+        margin-right: 60px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .card{
+        width: 302px !important;
+    }
+    .card1 img{
+        width: 300px !important;
+        height: 200px !important;
+    }
+    .card1{
+        margin-bottom: 0px;
+    }
+    .separation3{
+        width: auto;
+        margin-top: 450px;
+        margin-right: 60px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1115px){
+    .separation3{
+        width: auto;
+        margin-top: 450px;
+        margin-right: 50px;
+    }
+}
