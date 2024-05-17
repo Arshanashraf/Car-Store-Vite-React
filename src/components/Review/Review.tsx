@@ -11,7 +11,7 @@ import Car5 from '../../assets/Images/car6.avif'
 import Car6 from '../../assets/Images/car7.webp'
 const Review = () => {
   return (
-    <div id='review' className="review">
+    <div  className="review">
       <div className="reviewContent">
         <h1>Car Dealing Experience.</h1>
         <h3>Review</h3>
@@ -117,7 +117,7 @@ const Review = () => {
       </div>
       <div className="row">
         <div className="col-lg-12">
-          <div className="separation3 "></div>
+          <div id='contact' className="separation3 "></div>
         </div>
       </div>
     </div>

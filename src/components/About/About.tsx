@@ -8,11 +8,11 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div id="about" className="about">
-      <Row>
+    <div className="about">
+      <Row  >
         <Col lg="6" >
-          <div className="aboutContent">
-            <h1>Car Dealing Experience.</h1>
+          <div  className="aboutContent">
+            <h1 >Car Dealing Experience.</h1>
             <h3>About Us.</h3>
              <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
@@ -57,7 +57,7 @@ const About = () => {
 
       <div className="row">
         <div className="col-lg-12">
-          <div className="separation2"></div>
+          <div id='review' className="separation2"></div>
         </div>
       </div>
     </div>
