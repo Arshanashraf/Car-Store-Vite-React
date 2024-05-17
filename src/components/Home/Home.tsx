@@ -37,7 +37,7 @@ const Home = () => {
       </Row>
       <Row>
         <Col lg="12">
-        <div className="separation1 "></div>
+        <div id="about" className="separation1 "></div>
         </Col>
       </Row>
     </div>
