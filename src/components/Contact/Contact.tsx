@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import './Contact.css'
 const Contact = () => {
   return (
-    <div id='contact'>
+    <div >
       <Form className='form'>
         <h3>Contact Us.</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt consectetur quae voluptate velit, consequuntur et, ab possimus, officia asperiores blanditiis.</p>
