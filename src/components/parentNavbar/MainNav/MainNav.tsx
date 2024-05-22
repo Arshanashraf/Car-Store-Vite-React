@@ -15,7 +15,7 @@ const MainNav = () => {
           <Nav className="navbar me-auto">
             <Nav.Link className="nav" href="#home">Home</Nav.Link>
             <Nav.Link className="nav" href="#about">About</Nav.Link>
-            <Nav.Link className="nav" href="#review">Reviews</Nav.Link>
+            <Nav.Link className="nav" href="#review">Review</Nav.Link>
             <Nav.Link className="nav" href="#contact">Contact</Nav.Link>
             <Nav.Link className="nav" href="#featured">Featured</Nav.Link>
           </Nav>
